@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="696dp"
+        android:text="|| JAI SRI GURUDEV ||"
+        android:textColor="#E34716"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="656dp"
+        android:text="S J C INSTITUTE OF TECHNOLOGY"
+        android:textColor="#912737"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="269dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="484dp"
+        android:text="STUDENT"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="404dp"
+        android:text="NOTES"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="266dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="324dp"
+        android:text="GALLERY"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/gobutton"
+        android:layout_width="249dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="232dp"
+        android:backgroundTint="#9FCFA1"
+        android:text="Let's Go...!"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
